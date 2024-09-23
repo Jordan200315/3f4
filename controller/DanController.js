@@ -13,6 +13,18 @@ const m = {
     },
     services:(req, res) =>{
         res.render('services');
+    },
+    gallery:(req, res) =>{
+        res.render('gallery');
+    },
+    _about:(req, res) =>{
+        res.render('_about');
+    },
+    _services:(req, res) =>{
+        res.render('_services');
+    },
+    banner:(req, res) =>{
+        res.render('banner');
     }
 };
 
